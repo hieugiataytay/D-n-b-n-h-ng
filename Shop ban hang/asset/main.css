@@ -55,7 +55,7 @@ table {
 }
 /* ket thuc boostrap */
 
-.topbar{
+#topbar{
     height: 35px;
     background-color: rgb(233,78,42);
     display: flex;
@@ -82,6 +82,11 @@ table {
 
 .topbar-item-right{
     text-align: right;
+}
+
+/* menu header */
+#header-menu .navbar-nav{
+    margin: auto;
 }
 
 
