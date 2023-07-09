@@ -2,6 +2,11 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@font-face {
+    font-family: Quicksand;
+    src: url(./font/static/Quicksand-Regular.ttf);
+   
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,7 +27,15 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: Quicksand;
+    line-height: 1.6;
 }
+
+img, svg {
+    vertical-align: middle;
+}
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -46,6 +59,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* dung chung */
+.mgb-80{
+    margin-bottom: 80px
+}
+
+
 
 /* boostrap */
 
@@ -89,6 +109,358 @@ table {
     margin: auto;
 }
 
+/*- main */
+/* -- slide home  */
+.slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+}
+
+.slick-next{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+   
+    
+}
+
+.slick-arrow{
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+    color: #ea4d2a;
+    border-radius: 2px;
+    padding: 0;
+}
+
+#section-slide-home{
+    max-height: 700px;
+}
+
+
+#section-slide-home .home-background-img img{
+    width: 100% ;
+}
 
 
 
+/* title */
+.section-title{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.section-title:before{
+    content: "";
+    width: 150px;
+    height: 1px;
+    background: #ea4d2a;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.section-title:after{
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    bottom: -5px;
+    background-color: #ea4d2a;
+    -webkit-transform: rotate(45deg);
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.section-title .title-sub{
+    color: #a2a2a2;
+    font-size: 17px;
+    line-height: 1.6;
+
+}
+
+.section-title h2{
+    font-size: 34px;
+    color: #454545;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Lý do */
+
+#section-reason .reason-content .item-reason-content{
+    text-align: center;
+    padding: 3px;
+}
+
+#section-reason .reason-content .item-reason-content:hover .reason-content-img{
+    transition: transform 0.5s linear; 
+    transform: rotateY(360deg);
+}
+
+#section-reason .reason-content .item-reason-content:not(:hover) .reason-content-img{
+    transition: transform 0.5s linear; 
+    transform: rotateY(0deg);
+}
+
+#section-reason .reason-content .reason-content-title h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+#section-reason .reason-content .reason-content-sub p{
+    font-size: 13px;
+    line-height: 24px;
+}
+
+/* thành phần */
+#section-element{
+    padding: 60px 0;
+    background: #0f3810;
+}
+
+#section-element .section-title .title-sub{
+    color: #fff !important;
+}
+
+#section-element .section-title h2{
+    color: #fff !important;
+}
+
+#section-element .element-content .info-element .element-title h4{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: #ffffff;
+}
+
+#section-element .element-content .info-element .element-title p{
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#section-element .element-content .info-element-left .element-title{
+    padding-right: 75px;
+    text-align: right;
+}
+
+#section-element .element-content .info-element-right .element-title{
+    padding-left: 75px;
+    text-align: left;
+}
+
+#section-element .element-content .info-element-item{
+    margin-bottom: 40px;
+}
+
+#section-element .element-content .info-element-item{
+    position: relative;
+}
+
+
+#section-element .element-content .info-element-left .element-image{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ea4d2a;
+    line-height: 59px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    background: #ffffff;
+    right: 0;
+}
+
+#section-element .element-content .info-element-right .element-image{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ea4d2a;
+    line-height: 59px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    background: #ffffff;
+    left: 0;
+}
+
+#section-element .element-content .element-image img{
+    width: 28px;
+    height: auto;
+}
+
+
+#section-element .element-content .info-element-item:hover img{
+    transition: transform 0.5s linear; 
+    transform: rotateY(360deg);
+}
+
+#section-element .element-content .info-element-item:not(:hover) img{
+    transition: transform 0.5s linear; 
+    transform: rotateY(0deg);
+}
+
+#section-element .info-element-center img{
+    width: 100%;
+}
+
+/* Giới thiệu */
+#section-home-intro .home-intro-img img{
+    width: 100%;
+}
+
+#section-home-intro .home-intro-img {
+    padding: 0
+}
+
+#section-home-intro .home-intro-left .home-intro-content{
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 18px;
+    margin: auto;
+
+}
+
+#section-home-intro .home-intro-right .home-intro-content{
+    text-align: center;
+    padding-right: 32px;
+    padding-left: 18px;
+    margin: auto;
+}
+
+#section-home-intro .home-intro-content .home-intro-title{
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 0;
+    line-height: 40px;
+    margin-bottom: 28px;
+}
+
+#section-home-intro .home-intro-content .home-intro-sub p{
+    max-height: 120px;
+    overflow: auto;
+    font-size: 14px;
+    margin-bottom: 16px;
+    
+}
+
+#section-home-intro .home-intro-content .home-intro-view a{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #ea4d2a;
+    color: #fff;
+    padding: 12px 28px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Chi tiết và đóng gói */
+#section-detailPack{
+    background-color: #F6F6F6;
+    padding-top: 40px;
+    padding-bottom: 42px;
+}
+
+#section-detailPack .home-detailPack-img img{
+    width: 100%;
+}
+
+#section-detailPack .detailPack-content .detailPack-content-title h4{ 
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 7px;
+    color: #454545;
+}
+
+#section-detailPack .detailPack-content .detailPack-content-sub p{
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#section-detailPack .home-detailPack-content-item {
+    display: flex;
+}
+
+#section-detailPack .detailPack-content{
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+#section-detailPack .home-detailPack-content-item .detailPack-img{
+    width: 70px;
+    height: 70px;
+    line-height: 69px;
+    top: 0;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-detailPack .home-detailPack-img {
+  overflow: hidden;
+  position: relative;
+}
+
+#section-detailPack .home-detailPack-img:after{
+    background-color: #fff;
+    content: "";
+    left: -100%;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    transform: skewX(-25deg);
+    transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+
+    width: 50px;
+    height: 100%;
+    z-index: 2;
+}
+
+#section-detailPack .home-detailPack-img:hover::after{
+    left: 120%;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+    /* transition: all linear 2s; */
+}
+
+
+
+
+
+
+
+
+/* responsive */
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
