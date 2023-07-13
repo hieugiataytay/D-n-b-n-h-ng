@@ -1,5 +1,9 @@
 
 $ = jQuery
+$('#exampleModalCenter').on('shown.bs.modal', function () {
+    $('.slide-quickview-main, .slide-quickview-sub').slick('setPosition');
+});
+
 
 $(document).ready(function(){
     $('.home-background').slick({
@@ -22,7 +26,7 @@ $(document).ready(function(){
         `<button type='button' class='slick-arrow slick-next pull-right'><i class="fa-solid fa-chevron-right"></i></button>`,
     });
 
-    $('.product-featured-slide').slick({
+    $('#section-product-featured .product-featured-slide').slick({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -32,5 +36,23 @@ $(document).ready(function(){
         `<button type='button' class='slick-arrow slick-next pull-right'><i class="fa-solid fa-chevron-right"></i></button>`,
         
     });
+
+    $('.slide-quickview-sub').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slide-quickview-main',
+        centerMode: true,
+        focusOnSelect: true
+        });
+
+    $('.slide-quickview-main').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slide-quickview-sub'
+    });
+
+ 
 });
 

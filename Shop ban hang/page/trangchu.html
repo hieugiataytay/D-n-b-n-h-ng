@@ -7,14 +7,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../asset/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- slick -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
-
-   
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
 
 </head>
 <body>
+    
     <header>
         <section id="topbar">
             <div class="container-fluid">
@@ -317,6 +330,263 @@
             </div>
         </section>
 
+        <!-- Cấc sản phẩm -->
+        <section id="section-product-tab">
+            <div class="container">  
+                <div class="section-title">
+                    <p class="title-sub">Lý do</p>
+                    <h2>Chọn power drink</h2>
+                </div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="pill-drink-one-tab" data-bs-toggle="pill" data-bs-target="#pill-drink-one" type="button" role="tab" aria-controls="pill-drink-one" aria-selected="true">Nước tăng lực</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pill-drink-two-tab" data-bs-toggle="pill" data-bs-target="#pill-drink-two" type="button" role="tab" aria-controls="pill-drink-two" aria-selected="false">Nước ngọt, có ga</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pill-drink-three-tab" data-bs-toggle="pill" data-bs-target="#pill-drink-three" type="button" role="tab" aria-controls="pill-drink-three" aria-selected="false">Nước bù khoáng</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pill-drink-four-tab" data-bs-toggle="pill" data-bs-target="#pill-drink-four" type="button" role="tab" aria-controls="pill-drink-four" aria-selected="false">Nước trái cây, nước trà</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pill-drink-one" role="tabpanel" aria-labelledby="pill-drink-one-tab" tabindex="0">
+                        <div class="row">
+                            <!-- san pham -->
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-img">
+                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                    <div class="item-sale">
+                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                    </div>
+                                    <!-- modal -->
+                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                        <i class="fa-regular fa-eye"></i>
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                            <div class="slide-quickview-main">
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                </div>
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                </div>
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                </div>
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="slide-quickview-sub">
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                </div>
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                </div>
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                </div>
+                                                                <div class="quickview-img">
+                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--  -->
+                                </div>
+        
+                                <div class="product-featured-details">
+                                    <div class="product-featured-title">
+                                        <a href="">Drink De Energy Health & Strength</a>
+                                    </div>
+                                    <div class="product-featured-price">
+                                        <span class="price">35.000đ</span>
+                                        <span class="price-del">25.000đ</span>
+                                    </div> 
+                                    <div class="product-button-action">
+                                        <div class="product-button-cart">
+                                            <a href="" class="button-cart">
+                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-img">
+                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                    <div class="item-sale">
+                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                    </div>
+                                </div>
+        
+                                <div class="product-featured-details">
+                                    <div class="product-featured-title">
+                                        <a href="">Drink De Energy Health & Strength</a>
+                                    </div>
+                                    <div class="product-featured-price">
+                                        <span class="price">35.000đ</span>
+                                        <span class="price-del">25.000đ</span>
+                                    </div> 
+                                    <div class="product-button-action">
+                                        <div class="product-button-cart">
+                                            <a href="" class="button-cart">
+                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-img">
+                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                    <div class="item-sale">
+                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                    </div>
+                                </div>
+        
+                                <div class="product-featured-details">
+                                    <div class="product-featured-title">
+                                        <a href="">Drink De Energy Health & Strength</a>
+                                    </div>
+                                    <div class="product-featured-price">
+                                        <span class="price">35.000đ</span>
+                                        <span class="price-del">25.000đ</span>
+                                    </div> 
+                                    <div class="product-button-action">
+                                        <div class="product-button-cart">
+                                            <a href="" class="button-cart">
+                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-img">
+                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                    <div class="item-sale">
+                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                    </div>
+                                </div>
+        
+                                <div class="product-featured-details">
+                                    <div class="product-featured-title">
+                                        <a href="">Drink De Energy Health & Strength</a>
+                                    </div>
+                                    <div class="product-featured-price">
+                                        <span class="price">35.000đ</span>
+                                        <span class="price-del">25.000đ</span>
+                                    </div> 
+                                    <div class="product-button-action">
+                                        <div class="product-button-cart">
+                                            <a href="" class="button-cart">
+                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-img">
+                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                    <div class="item-sale">
+                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                    </div>
+                                </div>
+        
+                                <div class="product-featured-details">
+                                    <div class="product-featured-title">
+                                        <a href="">Drink De Energy Health & Strength</a>
+                                    </div>
+                                    <div class="product-featured-price">
+                                        <span class="price">35.000đ</span>
+                                        <span class="price-del">25.000đ</span>
+                                    </div> 
+                                    <div class="product-button-action">
+                                        <div class="product-button-cart">
+                                            <a href="" class="button-cart">
+                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-img">
+                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                    <div class="item-sale">
+                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                    </div>
+                                </div>
+        
+                                <div class="product-featured-details">
+                                    <div class="product-featured-title">
+                                        <a href="">Drink De Energy Health & Strength</a>
+                                    </div>
+                                    <div class="product-featured-price">
+                                        <span class="price">35.000đ</span>
+                                        <span class="price-del">25.000đ</span>
+                                    </div> 
+                                    <div class="product-button-action">
+                                        <div class="product-button-cart">
+                                            <a href="" class="button-cart">
+                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+
+                            <!--  -->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pill-drink-two" role="tabpanel" aria-labelledby="pill-drink-two-tab" tabindex="0">.1.</div>
+                    <div class="tab-pane fade" id="pill-drink-three" role="tabpanel" aria-labelledby="pill-drink-three-tab" tabindex="0">.2..</div>
+                    <div class="tab-pane fade" id="pill-drink-four" role="tabpanel" aria-labelledby="pill-drink-four-tab" tabindex="0">.2..</div>
+
+                </div>
+            </div>
+        </section>
+        
+
         <!-- chi tiết và đóng gói -->
         <section id="section-detailPack" class="mgb-80" >
             <div class="container">
@@ -383,7 +653,7 @@
             </div>
         </section>
 
-        <!-- sản phẩm nổi bật -->
+        <!-- sản phẩm chính hãng -->
         <section id="section-product-featured" class="mgb-80">
             <div class="container">
                 <div class="section-title">
@@ -396,6 +666,9 @@
                         <div class="product-featured-img">
                             <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
                             <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                            <div class="item-sale">
+                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                            </div>
                         </div>
 
                         <div class="product-featured-details">
@@ -409,80 +682,145 @@
                             <div class="product-button-action">
                                 <div class="product-button-cart">
                                     <a href="" class="button-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ     
+                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="product-featured-item">
+                        <div class="product-featured-img">
+                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                            <div class="item-sale">
+                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                            </div>
+                        </div>
+
+                        <div class="product-featured-details">
+                            <div class="product-featured-title">
+                                <a href="">Drink De Energy Health & Strength</a>
+                            </div>
+                            <div class="product-featured-price">
+                                <span class="price">35.000đ</span>
+                                <span class="price-del">25.000đ</span>
+                            </div> 
+                            <div class="product-button-action">
+                                <div class="product-button-cart">
+                                    <a href="" class="button-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="product-featured-item">
+                        <div class="product-featured-img">
+                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                            <div class="item-sale">
+                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                            </div>
+                        </div>
+
+                        <div class="product-featured-details">
+                            <div class="product-featured-title">
+                                <a href="">Drink De Energy Health & Strength</a>
+                            </div>
+                            <div class="product-featured-price">
+                                <span class="price">35.000đ</span>
+                                <span class="price-del">25.000đ</span>
+                            </div> 
+                            <div class="product-button-action">
+                                <div class="product-button-cart">
+                                    <a href="" class="button-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="product-featured-item">
+                        <div class="product-featured-img">
+                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                            <div class="item-sale">
+                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                            </div>
+                        </div>
+
+                        <div class="product-featured-details">
+                            <div class="product-featured-title">
+                                <a href="">Drink De Energy Health & Strength</a>
+                            </div>
+                            <div class="product-featured-price">
+                                <span class="price">35.000đ</span>
+                                <span class="price-del">25.000đ</span>
+                            </div> 
+                            <div class="product-button-action">
+                                <div class="product-button-cart">
+                                    <a href="" class="button-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="product-featured-item">
+                        <div class="product-featured-img">
+                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                            <div class="item-sale">
+                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                            </div>
+                        </div>
+
+                        <div class="product-featured-details">
+                            <div class="product-featured-title">
+                                <a href="">Drink De Energy Health & Strength</a>
+                            </div>
+                            <div class="product-featured-price">
+                                <span class="price">35.000đ</span>
+                                <span class="price-del">25.000đ</span>
+                            </div> 
+                            <div class="product-button-action">
+                                <div class="product-button-cart">
+                                    <a href="" class="button-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="product-featured-item">
+                        <div class="product-featured-img">
+                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                            <div class="item-sale">
+                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                            </div>
+                        </div>
+
+                        <div class="product-featured-details">
+                            <div class="product-featured-title">
+                                <a href="">Drink De Energy Health & Strength</a>
+                            </div>
+                            <div class="product-featured-price">
+                                <span class="price">35.000đ</span>
+                                <span class="price-del">25.000đ</span>
+                            </div> 
+                            <div class="product-button-action">
+                                <div class="product-button-cart">
+                                    <a href="" class="button-cart">
+                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
                                     </a>
                                 </div>
                             </div>
                         </div> 
                     </div>
 
-                    <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                        </div>
+                   
 
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                        </div>
-
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                        </div>
-
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                        </div>
-
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -778,23 +1116,7 @@
         </section>
     </footer>
 
-
-
-
-
     <!-- slick -->
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
     <script src="../asset/js/slick.js"></script>
 </body>
 </html>

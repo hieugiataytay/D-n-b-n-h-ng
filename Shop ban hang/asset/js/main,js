@@ -1,0 +1,4 @@
+$ = jQuery
+$('#exampleModalCenter').on('shown.bs.modal', function () {
+    $('.slide-quickview-main, .slide-quickview-sub').slick('setPosition');
+});
