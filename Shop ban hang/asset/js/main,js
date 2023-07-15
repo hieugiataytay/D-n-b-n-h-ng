@@ -1,4 +1,16 @@
 $ = jQuery
-$('#exampleModalCenter').on('shown.bs.modal', function () {
-    $('.slide-quickview-main, .slide-quickview-sub').slick('setPosition');
+// $('#exampleModalCenter').on('shown.bs.modal', function () {
+//     $('.slide-quickview-main, .slide-quickview-sub').slick('setPosition');
+// });
+
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    $(".menu-cat-lv0").click(function(){
+        $(this).find(".menu-cat-lv1").toggleClass("open");
+        $(this).find(".button-sub").toggleClass("change");
+       
+
+    });
 });
+
