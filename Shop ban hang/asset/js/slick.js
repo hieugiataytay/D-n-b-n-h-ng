@@ -62,6 +62,8 @@ $(document).ready(function(){
         nextArrow:
         `<button type='button' class='slick-arrow slick-next pull-right'><i class="fa-solid fa-chevron-right"></i></button>`,
     });
+
+ 
  
 });
 

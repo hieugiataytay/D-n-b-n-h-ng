@@ -2048,10 +2048,119 @@ position: relative;
 }
 
 
+
+
 /* Giỏ hàng */
 #section-cart{
     margin: 40px 0;
 }
+
+.cart-content-left, .cart-right{
+}
+
+.cart-content-left{
+    background: #fff;
+}
+
+.cart-content-left .cart-content{
+    background-color: #fff;
+}
+
+#section-cart .cart-content-left .cart-content .cart-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 15px;
+
+}
+
+#section-cart .cart-content-left .cart-content .cart-heading strong{
+    font-weight: bold;
+}
+
+#section-cart .cart-content-left .cart-content .cart-heading h1{
+    font-size: 24px;
+    color: #454545;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#section-cart .cart-content-left .cart-content .cart-shipfree span{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff2c26;
+}
+
+#section-cart .cart-content-left .cart-content .cart-shipfree strong{
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+    
+}
+
+#section-cart .cart-content-left .cart-content .cart-shipfree p{
+    font-size: 16px
+}
+
+#section-cart .cart-content-left .cart-note{
+    background: #f3f4f4;
+    padding: 15px;
+    margin: 20px 0 10px;
+}
+
+#section-cart .cart-content-left .cart-note .cart-note-title{
+    display: block;
+    margin: 0px 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#section-cart .cart-content-left .cart-note textarea{
+    padding: 10px 15px;
+    width: 100%;
+    min-height: 80px;
+    resize: none;
+    border: 1px solid #dfe0e1;
+    box-shadow: none;
+}
+
+#section-cart .cart-content-left .cart-export-bill .cart-export-text{
+    display: flex;
+}
+
+#section-cart .cart-content-left .cart-export-bill span{
+    border: 2px solid #ea4d2a;
+    line-height: 1.1;
+    padding: 1px 3px;
+    border-radius: 100%;
+    opacity: 0.2;
+}
+
+.active-button{
+    opacity: 1;
+}
+
+#section-cart .cart-content-left .cart-export-bill i{
+    color: #ea4d2a
+}
+
+#section-cart .cart-content-left .cart-export-bill p{
+    padding-left: 10px;
+    line-height: 1.8;
+}
+
+
+
+/* .cart-content-left-box{
+    background-color: #fff;
+} */
+
+
+
+
+
 
 /* ressponsive */
 /* he thong */

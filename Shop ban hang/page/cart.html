@@ -26,47 +26,95 @@
     ></script>
 </head>
 <body>
-    <div id="section-cart">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12 col-12 cart-content-left">
-                    <div class="cart-content">
-                        <div class="cart-heading">
-                            <h1>Giỏ hàng của bạn</h1>
-                            <p>Bạn đang có <strong>1 sản phẩm trong giỏ hàng</strong></p>
-                        </div>
-
-                        <div class="cart-shipfree">
-                            <p>Bạn cần mua thêm <span>283,000₫</span> để được <strong>MIỄN PHÍ VẬN CHUYỂN</strong></p>   
+    <main>
+        <section id="section-breadcrumb">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Hệ thống cửa hàng</li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+    
+        <section id="section-cart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-12 cart-content-left">
+                        <div class="cart-content-left-box">
+                            <div class="cart-content">
+                                <div class="cart-heading">
+                                    <h1>Giỏ hàng của bạn</h1>
+                                    <p>Bạn đang có <strong>1 sản phẩm</strong> trong giỏ hàng</p>
+                                </div>
+        
+                                <div class="cart-shipfree">
+                                    <p>Bạn cần mua thêm <span>283,000₫</span> để được <strong>MIỄN PHÍ VẬN CHUYỂN</strong></p>   
+                                </div>
+                            </div>
+        
+                            <!-- danh sách sản phẩm đặt -->
+                            <div class="list-cart-product">
+                                <div class="table-product">
+        
+                                </div>
+                            </div>
+        
+                            <!-- Ghi chú -->
+                            <div class="cart-note">
+                                <div class="cart-note-title">
+                                    <p>Ghi chú đơn hàng</p>
+                                </div>
+        
+                                <div class="cart-note-box">
+                                    <textarea placeholder="" rows="5"></textarea>
+                                </div>
+                            </div> 
+        
+                            <!-- Xuất hóa đơn hàng -->
+                            <div class="cart-export-bill">
+                                <div class="cart-export-text">
+                                    <span><i class="fa-solid fa-check"></i></span>
+                                    <p>Xuất hoá đơn cho đơn hàng</p>
+                                </div>
+                                
+                                <div class="cart-export-form">
+                                    <form action="">
+                                        <div class="row">
+                                            
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+        
+                            <!-- Có thể bạn sẽ thích -->
+                            <div class="cart-product-like">
+                                <div class="cart-product-like-title">
+                                    <p>Có thể bạn sẽ thích</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- danh sách sản phẩm đặt -->
-                <div class="list-cart-product">
-                    <div class="table-product">
-
+    
+           
+    
+    
+    
+                    <div class="col-lg-4 col-md-12 col-12 cart-right">
+    
                     </div>
-                </div>
-
-                <!-- Ghi chus -->
-                <div class="cart-note">
-                    
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-12 col-12 cart-right">
-
                 </div>
             </div>
-        </div>
-
-    </div>
+    
+        </section>
+    </main>
+   
 
 
     <!-- script -->
-    <script src="../asset/js/main.js"></script>
     <script src="../asset/js/slick.js"></script>
+    <script src="../asset/js/main.js"></script>
+
 </body>
 </html>
