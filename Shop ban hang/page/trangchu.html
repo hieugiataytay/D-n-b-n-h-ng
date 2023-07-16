@@ -75,10 +75,11 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div class="menu-header-right d-flex">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a href=""><i class="fa-solid fa-user"></i></a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
                   </div>
                 </div>
             </nav>
@@ -355,507 +356,433 @@
                         <div class="row">
                             <!-- san pham -->
                             <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
-                                <div class="product-featured-img">
-                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                                    <div class="item-sale">
-                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                                    </div>
-                                    <!-- modal button -->
-                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                        <i class="fa-regular fa-eye"></i>
-                                    </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                            <div class="slide-quickview-main">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                <div class="product-featured-inner">
+                                    <div class="product-featured-img">
+                                        <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                        <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                        <div class="item-sale">
+                                            <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                        </div>
+                                        <!-- modal button -->
+                                        <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                                <div class="slide-quickview-main">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                                <div class="slide-quickview-sub">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div class="slide-quickview-sub">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
+                                                            <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                                
                                                             </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--  -->
                                     </div>
-                                    <!--  -->
-                                </div>
-        
-                                <div class="product-featured-details">
-                                    <div class="product-featured-title">
-                                        <a href="">Drink De Energy Health & Strength</a>
-                                    </div>
-                                    <div class="product-featured-price">
-                                        <span class="price">35.000đ</span>
-                                        <span class="price-del">25.000đ</span>
-                                    </div> 
-                                    <div class="product-button-action">
-                                        <div class="product-button-cart">
-                                            <a href="" class="button-cart">
-                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                            </a>
+            
+                                    <div class="product-featured-details">
+                                        <div class="product-featured-title">
+                                            <a href="">Drink De Energy Health & Strength</a>
                                         </div>
-                                    </div>
-                                </div> 
+                                        <div class="product-featured-price">
+                                            <span class="price">35.000đ</span>
+                                            <span class="price-del">25.000đ</span>
+                                        </div> 
+                                        <div class="product-button-action">
+                                            <div class="product-button-cart">
+                                                <a href="" class="button-cart">
+                                                    <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
                             </div>
 
                             <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
-                                <div class="product-featured-img">
-                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                                    <div class="item-sale">
-                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                                    </div>
-                                    <!-- modal button -->
-                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                        <i class="fa-regular fa-eye"></i>
-                                    </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                            <div class="slide-quickview-main">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                <div class="product-featured-inner">
+                                    <div class="product-featured-img">
+                                        <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                        <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                        <div class="item-sale">
+                                            <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                        </div>
+                                        <!-- modal button -->
+                                        <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                                <div class="slide-quickview-main">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                                <div class="slide-quickview-sub">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div class="slide-quickview-sub">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
+                                                            <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                                
                                                             </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--  -->
                                     </div>
-                                    <!--  -->
-                                </div>
-        
-                                <div class="product-featured-details">
-                                    <div class="product-featured-title">
-                                        <a href="">Drink De Energy Health & Strength</a>
-                                    </div>
-                                    <div class="product-featured-price">
-                                        <span class="price">35.000đ</span>
-                                        <span class="price-del">25.000đ</span>
-                                    </div> 
-                                    <div class="product-button-action">
-                                        <div class="product-button-cart">
-                                            <a href="" class="button-cart">
-                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                            </a>
+            
+                                    <div class="product-featured-details">
+                                        <div class="product-featured-title">
+                                            <a href="">Drink De Energy Health & Strength</a>
                                         </div>
+                                        <div class="product-featured-price">
+                                            <span class="price">35.000đ</span>
+                                            <span class="price-del">25.000đ</span>
+                                        </div> 
+                                        <div class="product-button-action">
+                                            <div class="product-button-cart">
+                                                <a href="" class="button-cart">
+                                                    <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
+                                <div class="product-featured-inner">
+                                    <div class="product-featured-img">
+                                        <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                        <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                        <div class="item-sale">
+                                            <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                        </div>
+                                        <!-- modal button -->
+                                        <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                                <div class="slide-quickview-main">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="slide-quickview-sub">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--  -->
                                     </div>
-                                </div> 
+            
+                                    <div class="product-featured-details">
+                                        <div class="product-featured-title">
+                                            <a href="">Drink De Energy Health & Strength</a>
+                                        </div>
+                                        <div class="product-featured-price">
+                                            <span class="price">35.000đ</span>
+                                            <span class="price-del">25.000đ</span>
+                                        </div> 
+                                        <div class="product-button-action">
+                                            <div class="product-button-cart">
+                                                <a href="" class="button-cart">
+                                                    <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
                             </div>
 
                             <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
-                                <div class="product-featured-img">
-                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                                    <div class="item-sale">
-                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                                    </div>
-                                    <!-- modal button -->
-                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                        <i class="fa-regular fa-eye"></i>
-                                    </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                            <div class="slide-quickview-main">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                <div class="product-featured-inner">
+                                    <div class="product-featured-img">
+                                        <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                        <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                        <div class="item-sale">
+                                            <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                        </div>
+                                        <!-- modal button -->
+                                        <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                                <div class="slide-quickview-main">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                                <div class="slide-quickview-sub">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div class="slide-quickview-sub">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
+                                                            <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                                
                                                             </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--  -->
                                     </div>
-                                    <!--  -->
-                                </div>
-        
-                                <div class="product-featured-details">
-                                    <div class="product-featured-title">
-                                        <a href="">Drink De Energy Health & Strength</a>
-                                    </div>
-                                    <div class="product-featured-price">
-                                        <span class="price">35.000đ</span>
-                                        <span class="price-del">25.000đ</span>
-                                    </div> 
-                                    <div class="product-button-action">
-                                        <div class="product-button-cart">
-                                            <a href="" class="button-cart">
-                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                            </a>
+            
+                                    <div class="product-featured-details">
+                                        <div class="product-featured-title">
+                                            <a href="">Drink De Energy Health & Strength</a>
                                         </div>
-                                    </div>
-                                </div> 
+                                        <div class="product-featured-price">
+                                            <span class="price">35.000đ</span>
+                                            <span class="price-del">25.000đ</span>
+                                        </div> 
+                                        <div class="product-button-action">
+                                            <div class="product-button-cart">
+                                                <a href="" class="button-cart">
+                                                    <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </div>
                             </div>
 
                             <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
-                                <div class="product-featured-img">
-                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                                    <div class="item-sale">
-                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                                    </div>
-                                    <!-- modal button -->
-                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                        <i class="fa-regular fa-eye"></i>
-                                    </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                            <div class="slide-quickview-main">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                <div class="product-featured-inner">
+                                    <div class="product-featured-img">
+                                        <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                        <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                        <div class="item-sale">
+                                            <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                        </div>
+                                        <!-- modal button -->
+                                        <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                            <i class="fa-regular fa-eye"></i>
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                                <div class="slide-quickview-main">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                                <div class="slide-quickview-sub">
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                                    </div>
+                                                                    <div class="quickview-img">
+                                                                        <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                                    </div>
                                                                 </div>
                                                             </div>
 
-                                                            <div class="slide-quickview-sub">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
+                                                            <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                                
                                                             </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                            
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--  -->
                                     </div>
-                                    <!--  -->
-                                </div>
-        
-                                <div class="product-featured-details">
-                                    <div class="product-featured-title">
-                                        <a href="">Drink De Energy Health & Strength</a>
-                                    </div>
-                                    <div class="product-featured-price">
-                                        <span class="price">35.000đ</span>
-                                        <span class="price-del">25.000đ</span>
-                                    </div> 
-                                    <div class="product-button-action">
-                                        <div class="product-button-cart">
-                                            <a href="" class="button-cart">
-                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                            </a>
+            
+                                    <div class="product-featured-details">
+                                        <div class="product-featured-title">
+                                            <a href="">Drink De Energy Health & Strength</a>
                                         </div>
-                                    </div>
-                                </div> 
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
-                                <div class="product-featured-img">
-                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                                    <div class="item-sale">
-                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                                    </div>
-                                    <!-- modal button -->
-                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                        <i class="fa-regular fa-eye"></i>
-                                    </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                            <div class="slide-quickview-main">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="slide-quickview-sub">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <div class="product-featured-price">
+                                            <span class="price">35.000đ</span>
+                                            <span class="price-del">25.000đ</span>
+                                        </div> 
+                                        <div class="product-button-action">
+                                            <div class="product-button-cart">
+                                                <a href="" class="button-cart">
+                                                    <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                                </a>
                                             </div>
                                         </div>
-                                    </div>
-                                    <!--  -->
-                                </div>
-        
-                                <div class="product-featured-details">
-                                    <div class="product-featured-title">
-                                        <a href="">Drink De Energy Health & Strength</a>
-                                    </div>
-                                    <div class="product-featured-price">
-                                        <span class="price">35.000đ</span>
-                                        <span class="price-del">25.000đ</span>
                                     </div> 
-                                    <div class="product-button-action">
-                                        <div class="product-button-cart">
-                                            <a href="" class="button-cart">
-                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 col-6 product-featured-item product-list-item">
-                                <div class="product-featured-img">
-                                    <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                                    <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                                    <div class="item-sale">
-                                        <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                                    </div>
-                                    <!-- modal button -->
-                                    <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                        <i class="fa-regular fa-eye"></i>
-                                    </button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                        <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                            <div class="slide-quickview-main">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="slide-quickview-sub">
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                                </div>
-                                                                <div class="quickview-img">
-                                                                    <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                            
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--  -->
                                 </div>
-        
-                                <div class="product-featured-details">
-                                    <div class="product-featured-title">
-                                        <a href="">Drink De Energy Health & Strength</a>
-                                    </div>
-                                    <div class="product-featured-price">
-                                        <span class="price">35.000đ</span>
-                                        <span class="price-del">25.000đ</span>
-                                    </div> 
-                                    <div class="product-button-action">
-                                        <div class="product-button-cart">
-                                            <a href="" class="button-cart">
-                                                <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div> 
                             </div>
                             <!--  -->
                         </div>
@@ -945,424 +872,436 @@
 
                 <div class="product-featured-slide">
                     <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                            <div class="item-sale">
-                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                            </div>
-                            <!-- modal button -->
-                            <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                <i class="fa-regular fa-eye"></i>
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                    <div class="slide-quickview-main">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                        <div class="product-featured-inner">
+                            <div class="product-featured-img">
+                                <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                <div class="item-sale">
+                                    <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                </div>
+                                <!-- modal button -->
+                                <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                        <div class="slide-quickview-main">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                        <div class="slide-quickview-sub">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
 
-                                                    <div class="slide-quickview-sub">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                        </div>
+                                                    <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                        
                                                     </div>
-                                                </div>
-
-                                                <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--  -->
                             </div>
-                            <!--  -->
-                        </div>
 
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div> 
-                            <div class="product-button-action">
-                                <div class="product-button-cart">
-                                    <a href="" class="button-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                    </a>
+                            <div class="product-featured-details">
+                                <div class="product-featured-title">
+                                    <a href="">Drink De Energy Health & Strength</a>
                                 </div>
-                            </div>
-                        </div> 
+                                <div class="product-featured-price">
+                                    <span class="price">35.000đ</span>
+                                    <span class="price-del">25.000đ</span>
+                                </div> 
+                                <div class="product-button-action">
+                                    <div class="product-button-cart">
+                                        <a href="" class="button-cart">
+                                            <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
 
                     <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                            <div class="item-sale">
-                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                            </div>
-                            <!-- modal button -->
-                            <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                <i class="fa-regular fa-eye"></i>
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                    <div class="slide-quickview-main">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                        <div class="product-featured-inner">
+                            <div class="product-featured-img">
+                                <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                <div class="item-sale">
+                                    <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                </div>
+                                <!-- modal button -->
+                                <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                        <div class="slide-quickview-main">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                        <div class="slide-quickview-sub">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
 
-                                                    <div class="slide-quickview-sub">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                        </div>
+                                                    <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                        
                                                     </div>
-                                                </div>
-
-                                                <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--  -->
                             </div>
-                            <!--  -->
-                        </div>
 
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div> 
-                            <div class="product-button-action">
-                                <div class="product-button-cart">
-                                    <a href="" class="button-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                    </a>
+                            <div class="product-featured-details">
+                                <div class="product-featured-title">
+                                    <a href="">Drink De Energy Health & Strength</a>
                                 </div>
-                            </div>
-                        </div> 
+                                <div class="product-featured-price">
+                                    <span class="price">35.000đ</span>
+                                    <span class="price-del">25.000đ</span>
+                                </div> 
+                                <div class="product-button-action">
+                                    <div class="product-button-cart">
+                                        <a href="" class="button-cart">
+                                            <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
 
                     <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                            <div class="item-sale">
-                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                            </div>
-                            <!-- modal button -->
-                            <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                <i class="fa-regular fa-eye"></i>
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                    <div class="slide-quickview-main">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                        <div class="product-featured-inner">
+                            <div class="product-featured-img">
+                                <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                <div class="item-sale">
+                                    <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                </div>
+                                <!-- modal button -->
+                                <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                        <div class="slide-quickview-main">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                        <div class="slide-quickview-sub">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
 
-                                                    <div class="slide-quickview-sub">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                        </div>
+                                                    <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                        
                                                     </div>
-                                                </div>
-
-                                                <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--  -->
                             </div>
-                            <!--  -->
-                        </div>
 
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div> 
-                            <div class="product-button-action">
-                                <div class="product-button-cart">
-                                    <a href="" class="button-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                    </a>
+                            <div class="product-featured-details">
+                                <div class="product-featured-title">
+                                    <a href="">Drink De Energy Health & Strength</a>
                                 </div>
-                            </div>
-                        </div> 
+                                <div class="product-featured-price">
+                                    <span class="price">35.000đ</span>
+                                    <span class="price-del">25.000đ</span>
+                                </div> 
+                                <div class="product-button-action">
+                                    <div class="product-button-cart">
+                                        <a href="" class="button-cart">
+                                            <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
 
                     <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                            <div class="item-sale">
-                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                            </div>
-                            <!-- modal button -->
-                            <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                <i class="fa-regular fa-eye"></i>
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                    <div class="slide-quickview-main">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                        <div class="product-featured-inner">
+                            <div class="product-featured-img">
+                                <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                <div class="item-sale">
+                                    <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                </div>
+                                <!-- modal button -->
+                                <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                        <div class="slide-quickview-main">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                        <div class="slide-quickview-sub">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
 
-                                                    <div class="slide-quickview-sub">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                        </div>
+                                                    <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                        
                                                     </div>
-                                                </div>
-
-                                                <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--  -->
                             </div>
-                            <!--  -->
-                        </div>
 
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div> 
-                            <div class="product-button-action">
-                                <div class="product-button-cart">
-                                    <a href="" class="button-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                    </a>
+                            <div class="product-featured-details">
+                                <div class="product-featured-title">
+                                    <a href="">Drink De Energy Health & Strength</a>
                                 </div>
-                            </div>
-                        </div> 
+                                <div class="product-featured-price">
+                                    <span class="price">35.000đ</span>
+                                    <span class="price-del">25.000đ</span>
+                                </div> 
+                                <div class="product-button-action">
+                                    <div class="product-button-cart">
+                                        <a href="" class="button-cart">
+                                            <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
 
                     <div class="product-featured-item">
-                        <div class="product-featured-img">
-                            <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
-                            <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
-                            <div class="item-sale">
-                                <span><i class="fa-solid fa-bolt"></i> -12%</span>
-                            </div>
-                            <!-- modal button -->
-                            <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
-                                <i class="fa-regular fa-eye"></i>
-                            </button>
-                            <!-- Modal -->
-                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <div class="row">
-                                                <div class="col-12 col-md-6 col-lg-6 slide-quickview">
-                                                    <div class="slide-quickview-main">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                        <div class="product-featured-inner">
+                            <div class="product-featured-img">
+                                <a href=""><img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt=""></a>
+                                <img src="../asset/img/frame1_5f151d3f2bce42b99a356c60c1cf7864.jpg" alt="">
+                                <div class="item-sale">
+                                    <span><i class="fa-solid fa-bolt"></i> -12%</span>
+                                </div>
+                                <!-- modal button -->
+                                <button type="button" class="btn btn-eye-details" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                    <i class="fa-regular fa-eye"></i>
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-quickview modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-lg-6 slide-quickview">
+                                                        <div class="slide-quickview-main">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+
+                                                        <div class="slide-quickview-sub">
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
+                                                            </div>
+                                                            <div class="quickview-img">
+                                                                <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
+                                                            </div>
                                                         </div>
                                                     </div>
 
-                                                    <div class="slide-quickview-sub">
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-1_4163197fc0be49fc93e5487ec6ac9a44_large.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-2_650ae36b6e404a0ea3bbf00cf5145bcb_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-3_9a41acb6c6e1458eb8105b99508a01a0_master.jpg" alt="">
-                                                        </div>
-                                                        <div class="quickview-img">
-                                                            <img src="../asset/img/prod-1-4_10e463e37b514ba9bdbee0c31c75e088_master.jpg" alt="">
-                                                        </div>
+                                                    <div class="col-12 col-md-6 col-lg-6 detail-quickview">
+                                                        
                                                     </div>
-                                                </div>
-
-                                                <div class="col-12 col-md-6 col-lg-6 detail-quickview">
-                                                    
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!--  -->
                             </div>
-                            <!--  -->
-                        </div>
 
-                        <div class="product-featured-details">
-                            <div class="product-featured-title">
-                                <a href="">Drink De Energy Health & Strength</a>
-                            </div>
-                            <div class="product-featured-price">
-                                <span class="price">35.000đ</span>
-                                <span class="price-del">25.000đ</span>
-                            </div> 
-                            <div class="product-button-action">
-                                <div class="product-button-cart">
-                                    <a href="" class="button-cart">
-                                        <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
-                                    </a>
+                            <div class="product-featured-details">
+                                <div class="product-featured-title">
+                                    <a href="">Drink De Energy Health & Strength</a>
                                 </div>
-                            </div>
-                        </div> 
+                                <div class="product-featured-price">
+                                    <span class="price">35.000đ</span>
+                                    <span class="price-del">25.000đ</span>
+                                </div> 
+                                <div class="product-button-action">
+                                    <div class="product-button-cart">
+                                        <a href="" class="button-cart">
+                                            <i class="fa-solid fa-cart-shopping"></i><span>Thêm vào giỏ</span>    
+                                        </a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
                     </div>
+
+                   
                 </div>
             </div>
         </section>

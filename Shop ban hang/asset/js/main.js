@@ -15,5 +15,16 @@ $( document ).ready(function() {
         $('#section-cart .cart-content-left .cart-export-bill span').toggleClass('active-button')
         $('.cart-export-form').slideToggle();
     });
+
+
+    // $('#section-cart .promotion-note span').hover(
+    //     function() {
+    //         $('.promotion-form').toggleClass( "hover-active" );
+    //     }
+    // )
+
+    // Thêm thẻ
+    var productInner = $('<div>');
+
 });
 
