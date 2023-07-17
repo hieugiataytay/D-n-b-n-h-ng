@@ -217,12 +217,14 @@ strong{
     display: -webkit-box;
 }
 
-#header-menu .menu-header-right a{
+#header-menu .menu-header-right .icon-header{
     display: block;
-    font-size: 18px;
+    font-size: 19px;
     color: #000;
     margin-left: 20px;
     align-self: center;
+    background-color: transparent;
+    border: none;
 }
 
 #header-menu .navbar-nav .nav-link{
