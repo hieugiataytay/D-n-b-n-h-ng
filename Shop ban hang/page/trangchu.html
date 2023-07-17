@@ -31,7 +31,6 @@
         <section id="topbar">
             <div class="container-fluid">
                 <div class="row">
-                
                     <div class="col-6 topbar-item-left d-flex">
                         <div class="header-hotline">
                             <p>Hotline: <strong>1900.636.000 </strong>(8h - 12h, 13h30 - 17h) </p>
@@ -42,11 +41,38 @@
                     </div>
         
                     <div class="col-6 topbar-item-right">
-                        <i class="fa-solid fa-bell"></i> Thông báo
+                        <div class="icon-notificaiton">
+                            <span>0</span>
+                            <i class="fa-solid fa-bell"></i>
+                            <div class="notification-detai-box">
+                                <div class="notification-detail">
+                                    <div class="list-notify">
+                                        <div class="item-notify">
+                                            <p>Chào các bạn</p>
+                                        </div>
+    
+                                        <div class="item-notify">
+                                            <p>Chào các bạn</p>
+                                        </div>
+    
+                                        <div class="item-notify">
+                                            <p>Chào các bạn</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p>Thông báo</p>
+                        
+                        
+
                     </div>
                 </div>
             </div>
         </section>
+
+        <section id="section-overlay"></section>
 
         <section id="header-menu">
             <nav class="navbar navbar-expand-lg">
@@ -76,7 +102,7 @@
                         </li>
                     </ul>
                     <div class="menu-header-right d-flex">
-                        <button class="icon-header" href=""><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button class="icon-header icon-glass" href=""><i class="fa-solid fa-magnifying-glass"></i></button>
                         <a class="icon-header" href=""><i class="fa-solid fa-user"></i></a>
                         <a class="icon-header" href=""><i class="fa-solid fa-cart-shopping"></i></a>
                     </div>
@@ -84,23 +110,33 @@
                 </div>
             </nav>
 
-            <div class="search-box">
-                <div class="container-fluid">
-                    <div class="row"></div>
-                    <div class="col-lg-3 logo">
-                        <a href="" class="logo-name">Power Drink</a>
-                    </div>
-
-                    <div class="col-lg-6 search-from">
-                        <input class="search-input" type="text" placeholder="Tìm kiếm sản phẩm">
-                        <button class="search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-
-                    <div class="col-lg-3 action-close">
-                        
+            <div class="search-box-fixed">
+                <div class="search-box">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 logo">
+                                <a href="" class="logo-name">Power Drink</a>
+                            </div>
+    
+                            <div class="col-lg-6 search-form">
+                                <div class="search-form-box">
+                                    <input class="search-input" type="text" placeholder="Tìm kiếm sản phẩm">
+                                    <button class="search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+    
+                                <div class="search-text">
+                                    <p>Gợi ý cho bạn: <a href="">Sản phẩm mới</a></p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 action-close">
+                                <i class="fa-solid fa-x"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            
         </section>
     </header>
 
