@@ -2513,10 +2513,17 @@ position: relative;
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+#section-cart .promotion-top .promotion-note .promotion-note-img img:hover .promotion-form{
     display: none;
 }
 
 #section-cart .promotion-top .promotion-note .promotion-img{ 
+    margin: auto;
+}
+
+#section-cart .promotion-img{
     margin: auto;
 }
 
@@ -2549,8 +2556,7 @@ position: relative;
 }
 
 #section-cart .promotion-form{
-    display: none;
-    position: absolute;
+    position: relative;
     inset: 0px auto auto 0px;
     margin: 0px;
     transform: translate(0, 40px);

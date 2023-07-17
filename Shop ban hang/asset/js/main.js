@@ -11,20 +11,11 @@ $( document ).ready(function() {
         $(this).find(".button-sub").toggleClass("change");
     });
 
-    $("#section-cart .cart-content-left .cart-export-text").click(function(){
-        $('#section-cart .cart-content-left .cart-export-bill span').toggleClass('active-button')
-        $('.cart-export-form').slideToggle();
-    });
-
-
     // $('#section-cart .promotion-note span').hover(
     //     function() {
     //         $('.promotion-form').toggleClass( "hover-active" );
     //     }
     // )
-
-    // Thêm thẻ
-    var productInner = $('<div>');
 
 });
 
