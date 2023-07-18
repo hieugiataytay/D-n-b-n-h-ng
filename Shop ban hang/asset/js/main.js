@@ -28,37 +28,20 @@ $( document ).ready(function() {
 
     $(".product-cat-filter-button").click(function(){
         $('#section-overlay').toggleClass('open');
-        $('#section-filter-box').toggleClass('show-filter');
-        $('#section-filter-box .filter-box-inner').animate({transform: 'translateX(0)'}, 1000);
+        $('#section-filter-box').css('display', 'block').animate({ left: '0' }, 500); // 1000 là thời gian hiệu ứng (milliseconds)
+    });
 
+    $(".close-filter").click(function(){
+      $('#section-overlay').removeClass('open')
+      $('#section-filter-box').css('display', 'none');
+      $('#section-filter-box').css('left', '-200px');
     });
 
     // button filter 
-    $('#showButton').click(function() {
-        if ($('#hiddenDiv').is(':hidden')) {
-          // Nếu div đang ẩn, thực hiện hiệu ứng hiển thị
-          $('#hiddenDiv').css('left', '-200px').css('display', 'block').animate({ left: '0' }, 1000);
-        } else {
-          // Nếu div đang hiển thị, thực hiện hiệu ứng ẩn
-          $('#hiddenDiv').animate({ left: '-200px' }, 1000, function() {
-            $(this).css('display', 'none');
-          });
-        }
-    });
-
-    function addActive(item){
-        if ($(item).hasClass("active")) {
-            $(item).removeClass("active");
-            console.log('xoa');
-        } else {
-            $(item).addClass("active");
-            console.log('them');
-        }
-    }
 
     $('.filter-subtitle').click(function(){
         $(this).toggleClass('filter-active-menu');
-        $('.filter-content').slideToggle();
+        $(this).parent().find('.filter-content').slideToggle();
     })
 
     // sticky
@@ -81,8 +64,6 @@ $( document ).ready(function() {
     
 
     // keo
-    
-
 
 });
 

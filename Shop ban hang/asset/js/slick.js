@@ -76,19 +76,19 @@ $(document).ready(function(){
         ]
     });
 
-    $('.slide-quickview-sub').slick({
+    $('.productDetail-sub-slide').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
-        asNavFor: '.slide-quickview-main',
+        asNavFor: '.productDetail-main-slide',
         focusOnSelect: true
         });
 
-    $('.slide-quickview-main').slick({
+    $('.productDetail-main-slide').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: true,
         fade: true,
-        asNavFor: '.slide-quickview-sub'
+        asNavFor: '.productDetail-sub-slide'
     });
 
     //Chi tiết tin tức 
