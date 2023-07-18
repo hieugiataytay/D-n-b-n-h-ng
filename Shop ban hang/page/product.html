@@ -24,6 +24,9 @@
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+
 </head>
 <body>
     <main>
@@ -228,14 +231,104 @@
                 </div>
 
                 <div class="filter-box-content">
+                    <!-- Danh mục -->
+                    <div class="filter-group filter-search">
+                        <div class="filter-group-block">
+                            <div class="filter-subtitle">
+                                <span>Tên sản phẩm</span>
+                            </div>
+
+                            <div class="filter-content">
+                                <input type="text" placeholder="Nhập tên sản phẩm">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Danh mục -->
                     <div class="filter-group">
                         <div class="filter-group-block">
                             <div class="filter-subtitle">
                                 <span>Danh mục sản phẩm</span>
                             </div>
+
+                            <div class="filter-content">
+                                <ul class="filter-list-menu">
+                                    <li><a href="">Tìm kiếm</a></li>
+                                     <li><a href="">Giới thiệu</a></li>
+                                     <li><a href="">Chính sách đổi trả</a></li>
+                                     <li><a href="">Chính sách bảo mật</a></li>
+                                     <li><a href="">Điều khoản dịch vụ</a></li>
+                                     <li><a href="">Liên hệ</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Thương hiệu -->
+                    <div class="filter-group filter-trademark">
+                        <div class="filter-group-block">
+                            <div class="filter-subtitle">
+                                <span>Thương hiệu</span>
+                            </div>
+
+                            <div class="filter-content">
+                                <ul class="filter-list-menu">
+                                    <li>
+                                        <input type="checkbox" id="coca">
+                                        <label for="coca">Coca</label>
+                                    </li>
+
+                                    <li>
+                                        <input type="checkbox" id="Fanta">
+                                        <label for="Fanta">Fanta</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Giá -->
+                    <div class="filter-group filter-price">
+                        <div class="filter-group-block">
+                            <div class="filter-subtitle">
+                                <span>Khoảng giá</span>
+                            </div>
+
+                            <div class="filter-content">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                    <div id="slider-range"></div>
+                                    </div>
+                                </div>
+                                <div class="slider-labels">
+                                    <div class="caption">
+                                    <strong>Từ:</strong> <span id="slider-range-value1"></span>
+                                    </div>
+                                    <div class="text-right caption">
+                                    <strong>Đến:</strong> <span id="slider-range-value2"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                    <form>
+                                        <input type="hidden" name="min-value" value="">
+                                        <input type="hidden" name="max-value" value="">
+                                    </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-filter-box">
+                        <button class="filter-button-submmit" type="submit">Lọc</button>
+                    </div>
+
+                    
                 </div>
+
+                
+                
             </div>
         </section>
     </main>
