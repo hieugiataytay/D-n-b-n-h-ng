@@ -7,7 +7,7 @@ $ = jQuery
 $( document ).ready(function() {
     $('.cart-export-form').hide();
     $(".menu-cat-lv0").click(function(){
-        $(this).find(".menu-cat-lv1").toggleClass("open");
+        $(this).find(".menu-cat-lv1").slideToggle();
         $(this).find(".button-sub").toggleClass("change");
     });
 
@@ -30,5 +30,17 @@ $( document ).ready(function() {
     //     }
     // )
 
+    // Test
+    $('#showButton').click(function() {
+        if ($('#hiddenDiv').is(':hidden')) {
+          // Nếu div đang ẩn, thực hiện hiệu ứng hiển thị
+          $('#hiddenDiv').css('left', '-200px').css('display', 'block').animate({ left: '0' }, 1000);
+        } else {
+          // Nếu div đang hiển thị, thực hiện hiệu ứng ẩn
+          $('#hiddenDiv').animate({ left: '-200px' }, 1000, function() {
+            $(this).css('display', 'none');
+          });
+        }
+      });
 });
 

@@ -1823,6 +1823,7 @@ position: relative;
 
 .open{
     display: block !important;
+
 }
 
 #section-news .menu-cat .menu-cat-lv0>a{
@@ -2959,6 +2960,27 @@ position: relative;
     /* display: flex; */
     width: 100%;
 }
+
+
+/* sản phẩm */
+#hiddenDiv {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: -200px; /* Khoảng cách ban đầu của div từ bên trái màn hình */
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  #showButton {
+    margin-top: 20px;
+  }
+
+
+
+
 /* ressponsive */
 /* he thong */
 @media (max-width: 426px){
