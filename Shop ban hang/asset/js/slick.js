@@ -76,17 +76,20 @@ $(document).ready(function(){
         ]
     });
 
+    // Đã xem
+   
+
     $('.productDetail-sub-slide').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        asNavFor: '.productDetail-main-slide',
-        focusOnSelect: true
-        });
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      asNavFor: '.productDetail-main-slide',
+      centerMode: true,
+      focusOnSelect: true
+    });
 
     $('.productDetail-main-slide').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
         fade: true,
         asNavFor: '.productDetail-sub-slide'
     });
