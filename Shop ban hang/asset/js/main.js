@@ -77,12 +77,56 @@ $( document ).ready(function() {
 
     $('.button-show').toggleClass('before-active')
   });
-  
-
-
-
-
 });
+
+$(document).ready(function() {
+  // Chọn phần tử có ID "myElement"
+  var myElement = $(".productDetail-related-list");
+
+  // Thêm class "myClass" vào phần tử khi width đạt đến 400px
+  $(window).on('resize', function() {
+    if (myElement.width() < 426) {
+      myElement.addClass("productDetail-related-list-slide");
+      
+    } else {
+      myElement.removeClass("productDetail-related-list-slide");
+    }
+  });
+});
+
+
+
+// zoom ảnh
+// $(document).ready(function() {
+//   $(".productDetail-main-img").hover(
+//     function() {
+//       // Lấy đường dẫn của ảnh gốc
+//       var imageSrc = $(this).find("img").attr("src");
+      
+//       // Đặt ảnh phóng to trong div zoomed-image
+//       $('#section-product-detail .zoomed-image').css("background-image", "url(" + imageSrc + ")");
+      
+//       // Hiển thị div zoomed-image
+//       $('#section-product-detail .zoomed-image').css("visibility", "visible");
+//     },
+//     function() {
+//       // Ẩn div zoomed-image khi không hover nữa
+//       $('#section-product-detail .zoomed-image').css("visibility", "hidden");
+//     }
+//   );
+
+//   $(".productDetail-main-img").mousemove(function(event) {
+//     // Cập nhật vị trí của ảnh phóng to theo vị trí chuột
+//     var zoomedImage = $(this).find(".zoomed-image");
+//     var containerOffset = $(this).offset();
+//     var posX = event.pageX - containerOffset.left;
+//     var posY = event.pageY - containerOffset.top;
+
+//     zoomedImage.css({ left: posX, top: posY });
+//   });
+// });
+
+
 
 // Requires jQuery
 

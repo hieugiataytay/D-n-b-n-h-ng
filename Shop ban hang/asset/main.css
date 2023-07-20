@@ -98,8 +98,6 @@ table {
     position: absolute;
     top: 50%;
     right: 20px;
-   
-    
 }
 
 .slick-arrow{
@@ -121,6 +119,101 @@ table {
     z-index: 1;
     width: 40px;
     height: 40px;
+    color: #fff;
+    border-radius: 2px;
+    padding: 0;
+}
+
+/* chi tiết sản phẩm arrow */
+.productDetail-main-slide .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.productDetail-main-slide .slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.productDetail-main-slide .slick-arrow{
+    transform: translateY(-25%);
+    border: none;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    border-radius: 2px;
+    padding: 0;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transition: all 300ms ease;
+
+
+}
+
+.productDetail-main-slide:hover .slick-arrow{
+    opacity: 1;
+}
+
+.productDetail-sub-slide:hover .slick-arrow{
+    opacity: 1;
+}
+
+.productDetail-sub-slide .slick-arrow{
+    transform: translateY(-50%);
+    border: none;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    border-radius: 2px;
+    padding: 0;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    transition: all 300ms ease;
+    opacity: 0;
+}
+
+.productDetail-sub-slide .slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 13px;
+}
+
+.productDetail-sub-slide .slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 13px;
+
+}
+
+/* chi tieets */
+.productDetail-related-list .slick-prev{
+    position: absolute;
+    top: 17%;
+    left: 20px;
+}
+
+.productDetail-related-list .slick-next{
+    position: absolute;
+    top: 17%;
+    right: 20px;
+}
+
+.productDetail-related-list .slick-arrow{
+    transform: translateY(-50%);
+    background-color: #ea4d2a;
+    border: none;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
     color: #fff;
     border-radius: 2px;
     padding: 0;
@@ -4111,6 +4204,45 @@ cursor: not-allowed;
     padding: 8px;
 }
 
+/* zoom ảnh */
+
+/* .product-detail-main{
+    position: relative;
+} */
+
+/* .zoomed-image {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px; 
+    height: 200px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    visibility: hidden;
+} */
+
+.productDetail-sub-img.slick-center img{
+    border-radius: 12px;
+    border: 1px solid #ea4d2a;
+    overflow: hidden;
+}
+/* 
+.productDetail-main-img.slick-current img{
+    border-radius: 12px;
+    border: 1px solid #ea4d2a;
+    overflow: hidden;
+} */
+
+.productDetail-main-img{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.08);
+    border: 1px solid #c8cfd3;
+    overflow: hidden;
+}
+
+
 /* ressponsive */
 
 /* he thong */
@@ -4123,5 +4255,12 @@ cursor: not-allowed;
     .branch-right{
         margin-top: 15px;
         height: 450px;
+    }
+
+
+    /* chi tiết sản phẩm */
+    .productDetail-related-list{
+        overflow: none;
+        position: relative;
     }
 }
